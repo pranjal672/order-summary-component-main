@@ -61,10 +61,17 @@ p {
   display: flex;
   flex-flow: row nowrap;
   padding: 1rem 0.5rem;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: hsl(225, 100%, 98%);
   border-radius: 1rem;
+}
+
+.hero__container div:nth-child(1) {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 1rem;
 }
 
 .hero__container div:nth-child(2) p:nth-child(1) {
