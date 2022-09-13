@@ -60,7 +60,7 @@ p {
 .hero__container {
   display: flex;
   flex-flow: row nowrap;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
   background-color: hsl(225, 100%, 98%);
